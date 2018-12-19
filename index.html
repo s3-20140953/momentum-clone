@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>momentum_copy</title>
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="js-clock"><h1>00:00</h1></div>
 
-    <head>
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
 
-        <meta charset="utf-8"/>
-        <title>momentum_copy</title>
-        <link href="index.css" rel="stylesheet">
+    <h4 class="js-greetings greegings"></h4>
 
-    </head>
-    <body>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do" />
+    </form>
 
-        <div class="js-clock">
-            <h1>00:00</h1>
-        </div>
+    <ul class="js-toDo"></ul>
 
-        <form class="js-form form">
-            <input type="text" placeholder="What is your name?">
-        </form>
+    <span class="js-date"></span>
 
-        <h4 class="js-greetings greegings"></h4>
-
-        <form class="js-toDoForm">
-            <input type="text" placeholder="Write a to do">
-        </form>
-
-        <ul  class="js-toDo"></ul>
-
-        <span class="js-date"></span>
-
-        <script src="clock.js"></script>
-        <script src="greeting.js"></script>
-        <script src="todo.js"></script>
-        <script src="background.js"></script>
-        <script src="weather.js"></script>
-
-    </body>
-
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
 </html>
