@@ -1,5 +1,4 @@
 body {
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,15 +16,16 @@ body {
 .main-body {
   position: absolute;
   top: 420px;
+  animation: slide 4s ease-in-out;
 }
 
 .main-body input {
   text-align: center;
-  background-color: transparent;
   font-size: 30px;
-  color: white;
   border: 1px solid transparent;
   border-bottom: 3px solid white;
+  background: transparent;
+  animation: slide 5s ease-in-out;
 }
 
 .js-toDo {
@@ -33,6 +33,7 @@ body {
   color: white;
   font-weight: 600;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 .main-body .greegings {
@@ -67,6 +68,15 @@ body {
   height: 100vh;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+@keyframes slide {
+  from {
+    transform: rotate(1turn);
+  }
+  to {
+    transform: none;
+  }
 }
 
 @keyframes fadeIn {
