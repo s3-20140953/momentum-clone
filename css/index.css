@@ -1,12 +1,36 @@
 body {
-  background-color: grey;
-}
-
-.main-body {
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.js-clock {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+  padding-top: 130px;
+}
+
+.main-body {
+  position: absolute;
+  top: 420px;
+}
+
+.main-body input {
+  text-align: center;
+  background-color: transparent;
+  font-size: 30px;
+  color: white;
+  border: 1px solid transparent;
+  border-bottom: 3px solid white;
+}
+
+.main-body .greegings {
+  font-size: 30px;
+  color: white;
 }
 
 .js-date {
@@ -23,15 +47,17 @@ body {
 .greetings {
   display: none;
 }
+
 .showing {
   display: block;
 }
+
 .bgImage {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100;
+  height: 100vh;
   z-index: -1;
   animation: fadeIn 0.5s linear;
 }
