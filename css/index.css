@@ -28,6 +28,13 @@ body {
   border-bottom: 3px solid white;
 }
 
+.js-toDo {
+  text-align: left;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .main-body .greegings {
   font-size: 30px;
   color: white;
