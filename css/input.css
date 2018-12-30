@@ -1,3 +1,19 @@
+.all-body input {
+  text-align: center;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid white 0.8;
+  background: transparent;
+  color: white;
+  padding: 5px;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
 .text-body {
   position: relative;
   top: -80px;
