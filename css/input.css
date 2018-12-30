@@ -45,3 +45,8 @@ input::placeholder {
   font-weight: 600;
   font-size: 15px;
 }
+
+.js-toDo button {
+  background: transparent;
+  border: 1px solid transparent;
+}
