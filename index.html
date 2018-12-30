@@ -8,22 +8,23 @@
   </head>
   <body>
     <section class="all-body">
-      <span class="js-clock"><h1>00:00</h1></span>
+      <div class="js-clock"><h1 class="clock">00:00</h1></div>
+      <article class="text-body">
+        <div class="greeting-body">
+          <form class="js-form form">
+            <input type="text" placeholder="What is your name?" />
+          </form>
 
-      <div class="greeting-body">
-        <form class="js-form form">
-          <input type="text" placeholder="What is your name?" />
+          <h4 class="js-greetings greegings"></h4>
+        </div>
+      </article>
+      <article class="list-body">
+        <form class="js-toDoForm">
+          <input type="text" placeholder="Write a to do" />
         </form>
-
-        <h4 class="js-greetings greegings"></h4>
-      </div>
+        <ul class="js-toDo"></ul>
+      </article>
     </section>
-    <div class="formbody">
-      <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do" />
-      </form>
-      <ul class="js-toDo"></ul>
-    </div>
 
     <span class="js-date"></span>
 

@@ -1,0 +1,31 @@
+.text-body {
+  position: relative;
+  top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-body {
+  position: relative;
+  top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greegings {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.js-toDo {
+  list-style: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
